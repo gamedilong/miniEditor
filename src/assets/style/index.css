@@ -1,0 +1,58 @@
+.mini-toolbar {
+  display: flex;
+  padding: 0 6px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.mini-toolbar .mini-menu-item {
+  position: relative;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.mini-toolbar .mini-e-droplist {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  border-right-color: #ccc;
+  border-bottom-color: #ccc;
+}
+.mini-toolbar .mini-e-droplist .mini-e-dp-title {
+  text-align: center;
+  color: #999;
+  line-height: 2;
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 13px;
+}
+.mini-toolbar .mini-e-droplist ul.mini-e-list {
+  list-style: none;
+  line-height: 1;
+}
+.mini-toolbar .mini-e-droplist ul.mini-e-list li.mini-e-item {
+  color: #333;
+  padding: 5px 0;
+}
+.mini-toolbar .mini-e-droplist ul.mini-e-list li.mini-e-item:hover {
+  background-color: #f1f1f1;
+}
+.mini-toolbar .mini-e-droplist ul.mini-e-block {
+  list-style: none;
+  text-align: left;
+  padding: 5px;
+}
+.mini-toolbar .mini-e-droplist ul.mini-e-block li.mini-e-item {
+  display: inline-block;
+  padding: 3px 5px;
+}
+.mini-toolbar .mini-e-droplist ul.mini-e-block li.mini-e-item:hover {
+  background-color: #f1f1f1;
+}
+.mini-text-con .mini-text-ele {
+  outline: none;
+}

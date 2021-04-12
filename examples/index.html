@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniEditor example</title>
+    <style>
+    </style>
+</head>
+
+<body>
+<p>
+    miniEditor demo
+</p>
+<div id="miniEditor" style="height:600px"></div>
+
+<script src="../dist/miniEditor.js"></script>
+<script>
+    const Editor = window.miniEditor;
+    const editor = new Editor(document.getElementById('miniEditor'));
+
+    editor.create();
+</script>
+</body>
+
+</html>
